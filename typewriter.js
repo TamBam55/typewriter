@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs \n";
+const sentence = "hello there from lighthouse labs";
  
 let delay = 0;
 for (const char of sentence) {
@@ -7,4 +7,5 @@ for (const char of sentence) {
   }, delay)
   delay += 50;
 }
-console.long(char)
+
+console.log(sentence)
